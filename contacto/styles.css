@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    color: white;
+    background-image: url(/img/Final-portada.jpg);
+    background-size: 1375px;
+    background-repeat: no-repeat;
+}
+
+.header{
+    background-image: url(/Galería/img/encabezado.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 10px;
+  }
+  
+  header a{
+    background-color: rgb(68, 68, 172);
+    padding: 7px 25px;
+    font-size: 20px;
+    border-radius: 18px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .barra{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.logo{
+    display: flex;
+    padding: 0;
+    height:0%;
+    width: 0%;
+    align-items: center;
+}
+  
+
+
+
+.container__menu{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+ display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    opacity: 2.9;
+    text-transform:uppercase;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.selected{
+  background-color: rgb(44, 44, 172);
+  padding: 8px 30px;
+  border-radius: 10px;
+  box-shadow: 2 8px 16px 2 rgba(0,0,0,0.9);
+  transition: 0.2s;
+  
+}
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.2s;
+    width: 40%;
+    background-color: rgb(44, 44, 172);
+    color: white;
+    margin: auto;
+    padding: 20px 50px;
+    border-radius: 25px;
+    text-align:left;
+    justify-content: center;
+}
+
+
+.container h2{
+    text-align: center;
+}
+
+.reloj{
+    display: flex;
+}
+
+.reloj div{
+    margin: 5px;
+    position: relative;
+}
+
+.reloj span{
+    width: 60px;
+    height: 50px;
+    background: none;
+    opacity: 0.9;
+    color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.reloj .texto{
+    height: 15px;
+    font-size: 5px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    background: blue;
+}
+
+#ampm{
+    bottom: 0;
+    width: 30px;
+    opacity: 0.9;
+    position:absolute;
+    height: 20px;
+    font-size: 20px;
+    background: none;
+}
+
+
+h3{
+    color: beige;
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    background-color: #c9c9c9;
+    padding-bottom: 0.1rem;
+    margin-top: 1.7rem;
+ }
+
+
+.icono img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    bottom: 0;
+}
+
+.imagen img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    bottom: 0;
+}
+
+.text{
+    color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.picture img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    bottom: 0;
+}
+
+.icono a{
+    text-decoration: none;
+    color: black;
+}
+
+.imagen a{
+    text-decoration: none;
+    color: black;
+}
+
+.picture a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:768px){
+    .navegacion{
+      display: flex;
+          flex-direction: column;
+          gap: 2rem;
+          align-items: flex-start;
+          justify-content: flex-start;
+    }
+  }
